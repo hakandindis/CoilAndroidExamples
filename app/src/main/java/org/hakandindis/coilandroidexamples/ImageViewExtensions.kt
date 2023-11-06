@@ -7,6 +7,7 @@ import android.widget.ImageView
 import coil.load
 import coil.transform.CircleCropTransformation
 import coil.transform.RoundedCornersTransformation
+import org.hakandindis.coilandroidexamples.transformations.GrayscaleTransformation
 
 /**
  * CREATED BY HAKAN DINDIŞ on 1.11.2023
@@ -28,4 +29,8 @@ fun ImageView.loadBlurredImage(url: String) = this.load(url) {
             }
         }
     )
+}
+
+fun ImageView.loadGrayscaleImage(url: String) = this.load(url) {
+    transformations(GrayscaleTransformation())
 }

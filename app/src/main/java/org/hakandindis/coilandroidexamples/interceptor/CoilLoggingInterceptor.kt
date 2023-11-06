@@ -1,4 +1,4 @@
-package org.hakandindis.coilandroidexamples
+package org.hakandindis.coilandroidexamples.interceptor
 
 import android.util.Log
 import coil.intercept.Interceptor

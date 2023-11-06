@@ -28,3 +28,8 @@ fun loadBlurredImage(view: ImageView, url: String) {
     view.loadBlurredImage(url)
 }
 
+@BindingAdapter("load_grayscale_image")
+fun loadGrayscaleImage(view: ImageView, url: String) {
+    view.loadGrayscaleImage(url)
+}
+

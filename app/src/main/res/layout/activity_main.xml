@@ -68,7 +68,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:load_blurred_image="@{url}"/>
+            app:load_grayscale_image="@{url}"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

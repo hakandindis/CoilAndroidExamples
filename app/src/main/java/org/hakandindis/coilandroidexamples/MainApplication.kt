@@ -3,6 +3,7 @@ package org.hakandindis.coilandroidexamples
 import android.app.Application
 import coil.ImageLoader
 import coil.ImageLoaderFactory
+import org.hakandindis.coilandroidexamples.interceptor.CoilLoggingInterceptor
 
 /**
  * CREATED BY HAKAN DINDIŞ on 5.11.2023
